@@ -80,8 +80,10 @@ with yours and get your fb:admis content information where the XXXX goes.
 	<!--close user nav-->
 	<div class="phone"><a href="tel:7729057158" class="tele">772-905-7158</a></div>
 	<ul class="social">
+        <li><p>Stay Connected</p></li>
 		<li><a class="socicon small facebook" href="https://www.facebook.com/maryhiggins82" data-placement="bottom" title="Follow us on Facebook"></a></li>
-		<!--<li><a class="socicon small twitterbird" href="#" data-placement="bottom" title="Follow us on Twitter"></a></li>-->
+        <li><a class="socicon small twitter" href="https://twitter.com/cyndilenz" data-placement="bottom" title="Follow us on Twitter"></a></li>
+        <li><a class="socicon small email" href="mailto:MaryWHiggins82@aol.com" data-placement="bottom" title="Get in touch!"></a></li>
 	</ul>
 </section>
 
@@ -93,12 +95,12 @@ with yours and get your fb:admis content information where the XXXX goes.
 		<nav id="main_menu">
 			<ul class="primary_menu">
 				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About<i></i></a>
-				<!--<ul>
-						<li><a href="tall-logo.html">Tall Logo Header</a></li>
-						<li><a href="alternative-header.html">Alternative Header</a></li>
-					</ul>-->
-				</li>
+				<li class="parent"><a href="javascript:void(0)">About<i></i></a>
+                    <ul>
+						<li><a href="biography.html">Biography</a></li>
+                        <li><a href="endorsements.html">Endorsements</a></li>
+					</ul>
+                </li>
 				<li class="parent"><a href="javascript:void(0)">Issues<i></i></a>
 					<ul>
 						<li><a href="issues-for-our-environment.html">For Our Environment</a></li>
@@ -107,7 +109,7 @@ with yours and get your fb:admis content information where the XXXX goes.
 						<li><a href="issues-for-sugar-free-politics.html">For Sugar-Free Politics</a></li>
 					</ul>
 				</li>
-				<li><a href="news.html">News</a>
+				<li><a href="media.html">Media</a>
 				</li>
 				<li class="active"><a href="contact.php">Contact<i></i></a>
 				</li>
@@ -258,7 +260,7 @@ with yours and get your fb:admis content information where the XXXX goes.
 				<div class="span4">
 					<section>
 						<h4>Stay Updated</h4>
-						<p>Receive occasional updates on events of interest in District 82 and Mary&rsquo;s campaign.</p>
+						<p>Receive occasional updates on events of interest in District 82 and Mary's campaign.</p>
 						<form action="http://maryhiggins82.us3.list-manage.com/subscribe/post?u=fc1bd82cd12ead62c2b420c4d&amp;id=c0a413e69f" method="post">
 							<div class="input-append row-fluid">
 								<input type="email" placeholder="Email Address" class="span6" name="EMAIL" id="mce-EMAIL" />
